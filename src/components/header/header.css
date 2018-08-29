@@ -1,0 +1,33 @@
+
+* {
+    margin: 0 ;
+    text-align: center;
+}
+h1 {
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background: #ddd;
+}
+
+ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background: #ddd;
+    border: 1px solid #fff;
+}
+
+li {
+    margin: auto 20px;
+    list-style: none;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.active {
+    background: bisque;
+}
